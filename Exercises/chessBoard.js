@@ -4,15 +4,15 @@ function chessBoard (size) {
    
     for (var i = 0; i < size; i++) {        
 
-        result += '\n'
+        result += '\n';
 
         for (var j = 0; j < size; j++) {
         
-            if((i +j) % 2 == 0) {
-                result  += space
+            if((i + j) % 2 == 0) {
+                result  += space;
             }
             else {
-                result  += "#"
+                result  += hash;
             };
         };
 
